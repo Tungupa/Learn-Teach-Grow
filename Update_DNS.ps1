@@ -30,4 +30,4 @@ $newDnsEntry = $oldDnsEntry.clone()
 $newDnsEntry.RecordData.IPv4Address = [System.Net.IPAddress]::Parse($newDnsIp)
 
 #Changing the DNS entry.
-Set-DnsServerResourceRecord -NewInputObject $newDnsEntry -OldInputObject $oldDnsEntry -ZoneName companyname.com -ComputerName dc1
+Set-DnsServerResourceRecord -NewInputObject $newDnsEntry -OldInputObject $oldDnsEntry -ZoneName companyname.com -ComputerName $DHCPServer
