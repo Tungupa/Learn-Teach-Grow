@@ -11,8 +11,7 @@ $DHCPServer = @(
 $DHCPS1,
 $DHCPS2,
 $DHCPS3,
-$DHCPS4,
-
+$DHCPS4
 )
 
 #Output the option to select a server to the user.
