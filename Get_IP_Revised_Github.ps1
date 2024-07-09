@@ -10,8 +10,7 @@ $DHCPServer = @(
 $DHCPS1,
 $DHCPS2,
 $DHCPS3,
-$DHCPS4,
-
+$DHCPS4
 )
 Write-Host " "
 Write-Host " "
