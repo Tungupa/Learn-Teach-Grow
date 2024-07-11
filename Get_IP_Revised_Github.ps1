@@ -179,7 +179,7 @@ while($Menu -ne "y")
     else
     {
         
-        #**************************************SEARCHING ALL 34 DHCP SERVERS FOR THE DEVICE******************************
+        #**************************************SEARCHING ALL DHCP SERVERS FOR THE DEVICE******************************
         #Error checking for entering the device name.
         Write-Host " "
         Write-Host " "
