@@ -24,7 +24,7 @@ Write-Host "                                                                    
             it is faster to select the server name and search for that device there. `n
             If you do not know what server the device is located in, a global search is `n
             your only option. `n
-            Just note that the global search searches each scope on the 34 DHCP servers.`n
+            Just note that the global search searches each scope on ALL DHCP servers.`n
             This search takes about 5 minutes to complete." -ForegroundColor Yellow
 Write-Host "  "
 Write-Host "  "
